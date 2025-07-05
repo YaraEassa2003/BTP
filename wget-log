@@ -1,0 +1,11 @@
+--2025-07-05 15:18:05--  https://cli.run.pivotal.io/stable?release=linux64
+Resolving cli.run.pivotal.io (cli.run.pivotal.io)... 104.18.37.208, 172.64.150.48, 2606:4700:4400::6812:25d0, ...
+Connecting to cli.run.pivotal.io (cli.run.pivotal.io)|104.18.37.208|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://packages.cloudfoundry.org/stable?release=linux64 [following]
+--2025-07-05 15:18:05--  https://packages.cloudfoundry.org/stable?release=linux64
+Resolving packages.cloudfoundry.org (packages.cloudfoundry.org)... 104.18.17.211, 104.18.16.211, 2606:4700::6812:11d3, ...
+Connecting to packages.cloudfoundry.org (packages.cloudfoundry.org)|104.18.17.211|:443... connected.
+HTTP request sent, awaiting response... 412 Precondition Failed
+2025-07-05 15:18:05 ERROR 412: Precondition Failed.
+

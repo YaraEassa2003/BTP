@@ -1,0 +1,9 @@
+applications:
+- name: car-price-api-yara
+  memory: 512M          # RAM – leave as is for now
+  disk_quota: 1G        # <— bump to 1 GB (you can go up to 2 GB on trial)
+  instances: 1
+  buildpacks:
+    - python_buildpack
+  command: gunicorn app:app --bind 0.0.0.0:$PORT
+  random-route: true
